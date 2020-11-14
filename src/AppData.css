@@ -1,0 +1,37 @@
+#postContainer {
+    margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-areas: 'image price rating' 'image title title' 'image content content';
+    grid-gap: 10px;
+    padding: 10px;
+    border-style: inset
+}
+
+#postImage {
+    grid-area: image;
+}
+
+#postPrice {
+    grid-area: price;
+}
+
+#postRating {
+    grid-area: rating;
+    display: flex;
+    justify-content: flex-end
+
+}
+
+.image{
+    width: 200px;
+    height: 150px
+}
+
+#postTitle {
+    grid-area: title;
+}
+
+#postContent {
+    grid-area: content;
+}

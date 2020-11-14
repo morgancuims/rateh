@@ -1,0 +1,58 @@
+.parent{
+  margin-left: 5%;
+  display:block;
+}
+
+.root_left{
+    width: 100%;
+    padding: 5px
+}
+
+.root_right{
+  width: 500px;
+  padding: 5px
+}
+
+.miniMap{
+  width: 500px;
+  height: 400px
+}
+
+.paper{
+    margin: 'auto';
+    max-width: 500
+}
+
+.otherChatPox{
+  position: 'absolute';
+  bottom: 250px;
+}
+
+.image{
+    width: 100px;
+    height: 100px
+}
+
+.imageUtility{
+  width: 20px;
+  height: 20px
+}
+.imageHouse{
+  width: 800px;
+  height: 600px;
+}
+
+.OverviewDescription{
+  text-align: left;
+}
+
+.img{
+    margin: 'auto';
+    display: 'block';
+    max-width: '100%';
+    max-height: '100%';
+}
+
+.roundButton{
+  border-radius: 50%;
+}
